@@ -36,12 +36,20 @@ public class User
             }
         }
     }
-    public int getUserId() { return userId; }
-    public String getName() { return name; }
-	public ArrayList<Book> getIssuedBooks() {
+    public int getUserId() 
+    {
+    	return userId; 
+    }
+    public String getName() 
+    {
+    	return name; 
+    }
+	public ArrayList<Book> getIssuedBooks() 
+	{
 		return issuedBooks;
 	}
-	public void setIssuedBooks(ArrayList<Book> issuedBooks) {
+	public void setIssuedBooks(ArrayList<Book> issuedBooks) 
+	{
 		this.issuedBooks = issuedBooks;
 	}
 }
